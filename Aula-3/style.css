@@ -1,0 +1,35 @@
+body{
+    background-color: brown;
+    color: aqua;
+    border: 1px solid red
+}
+
+div{
+    border: 1px solid;
+    display: inline-block;
+    padding: 20 px 35px;
+    border-radius: 3px;
+    box-shadow: 3px;
+
+
+}
+
+#minhadiv{
+
+}
+
+.salvar{
+    background-color: green;
+}
+
+.salvar:hover{
+    background-color: rgb(34, 218, 34);
+}
+
+.editar{
+    background-color: orange;
+}
+
+.deletar{
+    background-color: red;
+}

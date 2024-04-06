@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!--o que está em style é só CSS-->
+<!--text-decoration: none - tira o sublinhado do link-->
+<style>
+
+    a{
+    text-decoration: none;
+    background-color: rgb(243, 12, 243);
+    color: white;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 5px 15px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+    a:hover {
+        background-color: rgb(235, 167, 235);
+        }
+
+</style>
+
+<body>
+    <!--float: div vai flutuar. Se não colocar o float ele começa na origem (da esquerda para a direita, de cima para baixo)-->
+    <!--606 px, pq 6 px é só dos pixels das bordas-->
+    <div style="border: 1px solid;width: 606px; height: 300px;">
+        <div style="border: 1px solid;width: 200px; height: 200px; float: right; background-color: green">C</div>
+        <div style="border: 1px solid;width: 200px; height: 200px; float: left; background-color: red">A</div>
+        <div style="border: 1px solid;width: 200px; height: 200px; float: left; background-color: blue">B</div>
+    </div>
+    <!--Clear:both é uma propriedade que vai evitar que as configurações acima de confundam com as que virão depois dela -->
+    <div style = "clear: both;"></div>
+    <div style="margin: 10px;">
+        <!--target="blank" serve para abrir o link em outra guia-->
+        <a href="https://pt.wikipedia.org/wiki/Mico-leão-dourado" target="_blank">Mico-leão-dourado</a>
+    </div>
+</body>
+</html>
